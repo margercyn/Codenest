@@ -19,7 +19,8 @@
     <androidx.cardview.widget.CardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_alignParentBottom="true">
+    android:layout_alignParentBottom="true"
+        app:contentPaddingRight="20dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,15 +34,9 @@
             android:textSize="43px"
             android:textStyle="bold"
             />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="20dp"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="30dp"/>
+            android:layout_height="40dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -50,7 +45,8 @@
             android:textStyle="bold"/>
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
+            android:background="@drawable/rounded_edittext"
             android:inputType="text"/>
         <View
             android:layout_width="match_parent"
@@ -64,8 +60,10 @@
             android:textStyle="bold"/>
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
+            android:background="@drawable/rounded_edittext"
             android:inputType="text"/>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="30dp"/>
