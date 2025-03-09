@@ -19,6 +19,35 @@
         app:layout_constraintTop_toTopOf="parent"/>
     <!--шапка-->
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/image"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="well"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hi"
+        android:layout_marginLeft="100dp"
+        tools:ignore="MissingConstraints" />
+    </LinearLayout>
+    <!--шапка-->
   <ScrollView
         android:id="@+id/scrol"
         android:layout_width="match_parent"
