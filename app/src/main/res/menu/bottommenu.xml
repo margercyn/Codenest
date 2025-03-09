@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_projects"
+        android:icon="@drawable/project"
+        android:title="projects" />
+
+    <item
+        android:id="@+id/nav_team"
+        android:icon="@drawable/team"
+        android:title="team" />
+
+    <item
+        android:id="@+id/nav_plus"
+        android:icon="@drawable/plus"/>
+
+    <item
+        android:id="@+id/nav_task"
+        android:icon="@drawable/task"
+        android:title="tack" />
+
+    <item
+        android:id="@+id/nav_document"
+        android:icon="@drawable/document"
+        android:title="document" />
+</menu>
