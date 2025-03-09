@@ -8,6 +8,7 @@
     tools:context=".Projects">
     <!--главная проект-->
     <!--шапка-->
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
@@ -20,9 +21,9 @@
 
     <include
         android:id="@+id/card1"
-        app:layout="@layout/card_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        layout="@layout/card_layout"
         app:layout_constraintTop_toBottomOf="@id/imageView3"/>
 
         <!--app:layout_constraintBottom_toTopOf="@id/card2"-->
@@ -53,6 +54,7 @@
         android:src="@drawable/plus"
         app:backgroundTint="@color/white"
         app:tint="@color/black"
+        android:contentDescription="add"
         app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
