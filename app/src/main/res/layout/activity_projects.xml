@@ -19,24 +19,31 @@
         app:layout_constraintTop_toTopOf="parent"/>
     <!--шапка-->
 
+   <!-- <android.widget.ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+        </LinearLayout>
+    </android.widget.ScrollView> -->
     <include
         android:id="@+id/card1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         layout="@layout/card_layout"
-        app:layout_constraintTop_toBottomOf="@id/imageView3"/>
-
-        <!--app:layout_constraintBottom_toTopOf="@id/card2"-->
-
-   <!-- <include
+        app:layout_constraintTop_toBottomOf="@id/imageView3"
+        app:layout_constraintBottom_toTopOf="@id/card2"/>
+    <include
         android:id="@+id/card2"
         app:layout="@layout/card_layout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent">
-
-    </include>-->
-
+    </include>
 
 
     <!--новигационой панели-->
