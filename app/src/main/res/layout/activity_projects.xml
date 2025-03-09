@@ -18,29 +18,23 @@
         app:layout_constraintTop_toTopOf="parent"/>
     <!--шапка-->
 
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/CardView1"
+    <include
+        android:id="@+id/card1"
+        app:layout="@layout/card_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        app:cardCornerRadius="30dp"
-        tools:ignore="MissingConstraints"
-        app:layout_constraintTop_toBottomOf="@id/imageView3">
-    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/imageView3"/>
+
+        <!--app:layout_constraintBottom_toTopOf="@id/card2"-->
+
+   <!-- <include
+        android:id="@+id/card2"
+        app:layout="@layout/card_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="28dp"
-        android:gravity="center"
-        android:background="@drawable/cardview1_background">
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent">
 
-    </LinearLayout>
-    </androidx.cardview.widget.CardView>
-
-
-
-
+    </include>-->
 
 
 
@@ -50,9 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintTop_toBottomOf="@id/imageView3"
-        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
-        app:itemIconTint="@color/black"
-        app:itemTextColor="@color/black"/>
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
