@@ -8,14 +8,17 @@
     android:gravity="center"
     tools:context=".Regictreshon"
     android:background="@drawable/gradient_background">
-
+    <!--регистрация-->
+    <!--лого-->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="220dp"
         app:srcCompat="@drawable/dal"
        />
+    <!--лого-->
 
+    <!--карточка-->
     <androidx.cardview.widget.CardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

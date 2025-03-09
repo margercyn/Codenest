@@ -16,4 +16,4 @@
         android:layout_height="293dp"
         app:srcCompat="@drawable/dal" />
 </LinearLayout>
-
+    <!--страница 1 лого-->

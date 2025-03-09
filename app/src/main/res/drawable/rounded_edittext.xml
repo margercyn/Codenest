@@ -5,3 +5,4 @@
         <solid android:color="#FFFFFF"/> <!-- Фон -->
         <stroke android:width="2dp" android:color="#6200EE"/> <!-- Граница -->
     </shape>
+    <!--форма для почты и пароля в разделе регистрации-->
