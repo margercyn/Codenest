@@ -20,6 +20,6 @@ class MainActivity : AppCompatActivity() {
 
             // Закрываем текущую активность (MainActivity)
             finish()
-        }, 3000) // 3000 миллисекунд = 3 секунды
+        }, 5000) // 5000 миллисекунд = 5 секунды
     }
 }
