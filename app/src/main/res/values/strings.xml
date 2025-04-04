@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="dont_have_an_accout">Dont have an accout?</string>
 </resources>

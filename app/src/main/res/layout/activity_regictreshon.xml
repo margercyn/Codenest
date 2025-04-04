@@ -24,85 +24,91 @@
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
        app:cardCornerRadius="30dp">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="28dp">
 
-        <TextView
-            android:id="@+id/clickableText1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Forgot password?"
-            android:textSize="43px"
-            android:textStyle="bold"
-            />
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="40dp"/>
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Email"
-            android:textSize="43px"
-            android:textStyle="bold"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:background="@drawable/rounded_edittext"
-            android:inputType="text"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="30dp"/>
+            android:orientation="vertical"
+            android:padding="28dp">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Password"
-            android:textSize="43px"
-            android:textStyle="bold"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:background="@drawable/rounded_edittext"
-            android:inputType="text"/>
+            <TextView
+                android:id="@+id/clickableText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot password?"
+                android:textSize="43px"
+                android:textStyle="bold" />
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="30dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/buttonNext"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="login"
-            app:cornerRadius="20dp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="43px"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Dont have an accout?"
-            android:textSize="33px"
-            android:textStyle="bold"
-            android:alpha="0.7"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/rounded_edittext"
+                android:inputType="text" />
 
-        <TextView
-            android:id="@+id/clickableText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sing up"
-            android:textSize="10dp"
-            android:clickable="true"
-            android:focusable="true"
-            android:padding="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="43px"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/rounded_edittext"
+                android:inputType="text" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonNext"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="login"
+                app:cornerRadius="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:alpha="0.7"
+                android:text="@string/dont_have_an_accout"
+                android:textSize="33px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/clickableText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:text="Sing up"
+                android:textSize="10dp" />
 
 
-    </LinearLayout>
+        </LinearLayout>
 
 </androidx.cardview.widget.CardView>
 
